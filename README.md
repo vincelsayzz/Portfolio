@@ -2,6 +2,8 @@
 
 Live Vercel - 
 Live GitHub Pages -
+
+
 A two-part project:
 
 - **`backend/`** — a small FastAPI app that serves your portfolio content as JSON from one Python file.
