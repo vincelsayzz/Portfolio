@@ -13,7 +13,7 @@ the components map directly over this data.
 """
 
 HERO = {
-    "name": "Vince Keth Maarat",
+    "name": "Vince Maarat",
     "handle": "vinceslayz",
     "photo_url": "/images/profile.JPG",
     "resume_url": "/resume.pdf",   
