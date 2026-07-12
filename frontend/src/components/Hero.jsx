@@ -22,8 +22,11 @@ export default function Hero({ hero }) {
             <a href="#projects" className="btn btn--primary">
               View Projects
             </a>
-            <a href="#contact" className="btn btn--ghost">
-              Get In Touch
+            <a href={hero.resume_url}
+                download="Vince-Keth-Maarat-Resume.pdf"
+                className="btn btn--ghost"
+              >
+                Download Resume
             </a>
           </div>
         </div>
