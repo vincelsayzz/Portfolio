@@ -2,7 +2,7 @@
 
 Live Vercel - https://portfolio-nine-neon-itjz4dio93.vercel.app/
 
-Live GitHub Pages -
+Live GitHub Pages - https://vincelsayzz.github.io/Portfolio/
 
 
 A two-part project:
