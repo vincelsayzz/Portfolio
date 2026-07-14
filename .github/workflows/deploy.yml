@@ -27,7 +27,7 @@ jobs:
         run: cd frontend && npm install
       - name: Build project
         env:
-          VITE_API_URL: "https://portfolio-production-6443.up.railway.app"
+          VITE_API_URL: "https://portfolio-backend-juok.onrender.com"
         run: cd frontend && npm run build -- --base=/Portfolio/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

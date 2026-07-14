@@ -8,7 +8,7 @@ import Footer from "./components/Footer.jsx";
 
 // Falls back to localhost:8000 for local dev. Set VITE_API_URL in a .env
 // file (see .env.example) when the backend lives somewhere else.
-const API_URL = import.meta.env.VITE_API_URL || "https://portfolio-production-6443.up.railway.app";
+const API_URL = import.meta.env.VITE_API_URL || "https://portfolio-backend-juok.onrender.com";
 
 export default function App() {
   const [data, setData] = useState(null);
