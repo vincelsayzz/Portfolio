@@ -1,9 +1,17 @@
 import { useEffect, useState } from "react";
-import { CertificationIcon, EducationIcon, HomeIcon, MailIcon, ProjectsIcon } from "./icons.jsx";
+import {
+  CertificationIcon,
+  EducationIcon,
+  HomeIcon,
+  LeadershipIcon,
+  MailIcon,
+  ProjectsIcon,
+} from "./icons.jsx";
 
 const LINKS = [
   { href: "#home", label: "Home", Icon: HomeIcon },
   { href: "#education", label: "Education", Icon: EducationIcon },
+  { href: "#affiliations", label: "Affiliations", Icon: LeadershipIcon },
   { href: "#projects", label: "Projects", Icon: ProjectsIcon },
   { href: "#certifications", label: "Certifications", Icon: CertificationIcon },
   { href: "#contact", label: "Contact", Icon: MailIcon },
@@ -32,7 +40,14 @@ export default function Navbar({ avatarUrl, handle = "vinceslayz" }) {
 
         <nav className={`navbar__links ${menuOpen ? "navbar__links--open" : ""}`}>
           {LINKS.map(({ href, label, Icon }) => (
-            <a key={href} href={href} onClick={handleLinkClick} className="navbar__link" aria-label={label} data-tooltip={label}>
+            <a
+              key={href}
+              href={href}
+              onClick={handleLinkClick}
+              className="navbar__link"
+              aria-label={label}
+              data-tooltip={label}
+            >
               <Icon className="navbar__link-icon" />
               <span className="navbar__link-label-mobile">{label}</span>
             </a>

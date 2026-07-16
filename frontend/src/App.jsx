@@ -5,6 +5,7 @@ import Education from "./components/Education.jsx";
 import Projects from "./components/Projects.jsx";
 import Certifications from "./components/Certifications.jsx";
 import Footer from "./components/Footer.jsx";
+import Affiliations from "./components/Affiliations.jsx";
 
 // Falls back to localhost:8000 for local dev. Set VITE_API_URL in a .env
 // file (see .env.example) when the backend lives somewhere else.
@@ -71,6 +72,7 @@ export default function App() {
       <main>
         <Hero hero={data.hero} />
         <Education education={data.education} />
+        <Affiliations affiliations={data.affiliations} />
         <Projects projects={data.projects} />
         <Certifications certifications={data.certifications} />
       </main>

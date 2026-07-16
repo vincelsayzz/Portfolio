@@ -175,3 +175,25 @@ export function CertificationIcon(props) {
     </svg>
   );
 }
+
+export function LeadershipIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <circle cx="9" cy="8" r="3.2" stroke="currentColor" strokeWidth="1.6" />
+      <path
+        d="M3.5 19c0-3.3 2.5-5.5 5.5-5.5s5.5 2.2 5.5 5.5"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+      />
+      <circle cx="16.5" cy="8.5" r="2.6" stroke="currentColor" strokeWidth="1.4" opacity="0.8" />
+      <path
+        d="M14.8 13.7c2.2.4 3.9 2.2 3.9 4.6"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+        opacity="0.8"
+      />
+    </svg>
+  );
+}

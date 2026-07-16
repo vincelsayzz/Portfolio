@@ -18,15 +18,9 @@ HERO = {
     "photo_url": "/images/profile.JPG",
     "resume_url": "/resume.pdf",   
     "role": "Systems Analyst & Information Technology Student",
-    "terminal_line": "Personal Portfolio",
+    "terminal_line": "Hi, there! I'm",
     "intro": (
-        "I'm an IT student who gets genuinely excited about the layer most people never "
-        "see - the networks, protocols, and security controls that keep systems running "
-        "and safe. I spend my time building things that sit at the intersection of "
-        "hardware and code: automating physical tasks with IoT, hardening systems against "
-        "attack, and shipping software that solves problems I can actually see around me. "
-        "I care less about chasing every new framework and more about building things "
-        "that work, and work securely."
+        "I’m an IT student and Systems Analyst with a passion for the 'invisible' architecture of the web—the networks, protocols, and security layers that keep systems safe. I spend my time at the intersection of hardware and code, automating physical tasks and hardening systems against vulnerabilities. From deploying blockchain-based housing systems to integrating IoT with computer vision, I focus on building technology that works, works securely, and solves the problems I see around me. I value building resilient, practical solutions over chasing the latest frameworks."
     ),
 }
 
@@ -85,6 +79,47 @@ EDUCATION = [
     },
     # Add another entry here (e.g. senior high school, a bootcamp, a short course)
     # and it will automatically appear as another stop on the timeline.
+]
+
+AFFILIATIONS = [
+    {
+        "id": 1,
+        "position": "Assistant Treasurer",
+        "organization": "Institute of Computing Student Association (ICSA)",
+        "year_level": "1st Year",
+        "term": "2023 - 2024",
+        "photo_url": "/images/Affiliation 1.JPG",
+        "description": "Supported the ICSA executive team by managing financial documentation, tracking event budgets, and maintaining fiscal transparency. Gained hands-on experience in resource planning and organizational leadership.",
+    },
+    {
+        "id": 2,
+        "position": "External Vice - Governor",
+        "organization": "Institute of Computing Student Association (ICSA)",
+        "year_level": "2nd Year",
+        "term": "2024 - 2025",
+        "photo_url": "/images/Affiliation 2.JPG",
+        "description": "Acted as the primary liaison between the Institute of Computing and external stakeholders, sponsors, and partner organizations. Spearheaded efforts to secure sponsorships and foster collaborative initiatives, successfully expanding the organization's network and enhancing the impact of student-led projects.",
+    },
+    {
+        "id": 3,
+        "position": "Governor",
+        "organization": "Institute of Computing - Local Student Government (IC-LSG)",
+        "year_level": "3rd Year",
+        "term": "2025 - 2026",
+        "photo_url": "/images/Affiliation 3.jpeg",
+        "description": "Governor of the Institute of Computing Local Student Government, tasked with operational leadership and policy implementation. Spearheaded the digital transformation of the organization through the 'Green Initiative' and managed strategic institutional collaborations, including joint events with SOSED to promote environmental sustainability and student engagement.",
+    },
+    {
+        "id": 4,
+        "position": "IT Representative",
+        "organization": "Institute of Computing - Local Student Government (IC-LSG)",
+        "year_level": "4th Year",
+        "term": "2026 - 2027",
+        "photo_url": "/images/Affiliation 4.jpeg",
+        "description": "Served as the official voice of the IT student body within the Local Student Government, bridging communication between students and the faculty. Responsible for gathering student feedback on technical concerns, facilitating open dialogue, and advocating for initiatives that improve the student experience in the Institute of Computing.",
+    },
+    # Add or remove entries freely - each becomes a stop on the timeline,
+    # in the order they appear here. Give each a unique "id".
 ]
 
 PROJECTS = [
@@ -157,14 +192,14 @@ PROJECTS = [
     },
     {
     "id": 6,
-        "title":  "Blank",
+        "title":  "Dota 2 Draft Predictor",
         "description": (
-            "errrrrrrrrrrrrrrrrrrr"
+            "A full-stack, machine-learning-powered web application that predicts the likely winner of a Dota 2 match based on a 5v5 hero draft. Beyond simple win/loss prediction, it acts as a comprehensive drafting tool by integrating live professional meta data and analyzing team composition synergies."
         ),
-        "image_url": "/cisco-networking.svg",
-        "tags": ["blank", "blank", "blank",],
-        "github_url": "",
-        "live_url": "",
+        "image_url": "/images/project 6.png",
+        "tags": ["Machine Learning", "Web Application", "Data Science", "React", "FastAPI", "Dota 2", ],
+        "github_url": "https://github.com/vincelsayzz/dota2-draft-predictor",
+        "live_url": "https://dota2-draft-predictor.vercel.app/",
         "figma_url": ""
     },
     # New project? Copy one of the dicts above, change the fields, and it
@@ -295,6 +330,7 @@ SOCIAL_LINKS = {
 PORTFOLIO_DATA = {
     "hero": HERO,
     "education": EDUCATION,
+    "affiliations": AFFILIATIONS,   # ← add this line
     "projects": PROJECTS,
     "certifications": CERTIFICATIONS,
     "social_links": SOCIAL_LINKS,
