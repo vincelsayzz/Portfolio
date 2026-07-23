@@ -33,8 +33,7 @@ EDUCATION = [
         "status": "4th Year Student",
         "period": "Present",
         "description": (
-            "Coursework and hands-on labs spanning networking, systems administration, "
-            "cybersecurity fundamentals, and full-stack software development."
+            "Coursework and hands-on labs spanning networking, systems administration, cybersecurity fundamentals, and full-stack software development."
         ),
         "highlights": [
             "Networking & Systems Administration",
@@ -192,14 +191,14 @@ PROJECTS = [
     },
     {
     "id": 6,
-        "title":  "Dota 2 Draft Predictor",
+        "title":  "MOBA Draft Predictor",
         "description": (
-            "A full-stack, machine-learning-powered web application that predicts the likely winner of a Dota 2 match based on a 5v5 hero draft. Beyond simple win/loss prediction, it acts as a comprehensive drafting tool by integrating live professional meta data and analyzing team composition synergies."
+            "A full-stack, machine-learning-powered web application that predicts the likely winner of a MOBA match based on a 5v5 hero draft. Beyond simple win/loss prediction, it acts as a comprehensive drafting tool by integrating live professional meta data and analyzing team composition synergies."
         ),
         "image_url": "/images/project 6.png",
-        "tags": ["Machine Learning", "Web Application", "Data Science", "React", "FastAPI", "Dota 2", ],
-        "github_url": "https://github.com/vincelsayzz/dota2-draft-predictor",
-        "live_url": "https://dota2-draft-predictor.vercel.app/",
+        "tags": ["Machine Learning", "Web Application", "Data Science", "React", "FastAPI", "MOBA", ],
+        "github_url": "https://github.com/vincelsayzz/MOBA-Draft-Predictor",
+        "live_url": "https://moba-draft-predictor.vercel.app/",
         "figma_url": ""
     },
     # New project? Copy one of the dicts above, change the fields, and it
