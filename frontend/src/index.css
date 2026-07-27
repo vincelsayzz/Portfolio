@@ -719,6 +719,8 @@ button:focus-visible {
   color: var(--ink-muted);
   line-height: 1.7;
   margin-bottom: 1.25rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .timeline__highlights {
@@ -765,6 +767,11 @@ button:focus-visible {
   flex: 1;
   min-width: 0;
   padding: 1.75rem;
+}
+
+.affiliation-card__body p {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .affiliation-card__header {
@@ -1065,20 +1072,20 @@ button:focus-visible {
   }
 
   .navbar__link {
-  padding: 0.9rem 0.75rem;
-  width: 100%;
-  justify-content: flex-start;
-}
+    padding: 0.9rem 0.75rem;
+    width: 100%;
+    justify-content: flex-start;
+  }
 
-.navbar__link-label-mobile {
-  display: inline;
-  font-family: var(--font-mono);
-  font-size: 0.85rem;
-}
+  .navbar__link-label-mobile {
+    display: inline;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+  }
 
-.navbar__link::after {
-  display: none;
-}
+  .navbar__link::after {
+    display: none;
+  }
 
   .navbar__toggle {
     display: flex;
