@@ -20,7 +20,7 @@ HERO = {
     "role": "Systems Analyst & Information Technology Student",
     "terminal_line": "Hi, there! I'm",
     "intro": (
-        "I’m an IT student and Systems Analyst with a passion for the 'invisible' architecture of the web—the networks, protocols, and security layers that keep systems safe. I spend my time at the intersection of hardware and code, automating physical tasks and hardening systems against vulnerabilities. From deploying blockchain-based housing systems to integrating IoT with computer vision, I focus on building technology that works, works securely, and solves the problems I see around me. I value building resilient, practical solutions over chasing the latest frameworks."
+        "I’m an IT student and Systems Analyst with a passion for the 'invisible' architecture of the web the networks, protocols, and security layers that keep systems safe. I spend my time at the intersection of hardware and code."
     ),
 }
 
@@ -59,23 +59,7 @@ EDUCATION = [
             "Local Area Network (LAN) Setup & Troubleshooting",
         ],
     },
-    {
-        "id": 4,
-        "institution": "Jose Maria College Foundation Incorporated` (JMCFI)",
-        "logo_url": "/images/jmcfi-logo.png",   
-        "credential": "Basic Education Curriculum (BEC)",
-        "status": "Completed",
-        "period": "2018 - 2021",
-        "description": (
-            "Completed the standard Basic Education Curriculum, developing a strong academic foundation "
-            "and early analytical skills that paved the way for specialized technical studies."
-        ),
-        "highlights": [
-            "Strong foundation in core academics (Mathematics, Science, English)",
-            "Introductory Technology and Livelihood Education (TLE)",
-            "Development of critical thinking and problem-solving skills",
-        ],
-    },
+    
     # Add another entry here (e.g. senior high school, a bootcamp, a short course)
     # and it will automatically appear as another stop on the timeline.
 ]
@@ -87,8 +71,6 @@ AFFILIATIONS = [
         "organization": "Institute of Computing Student Association (ICSA)",
         "year_level": "1st Year",
         "term": "2023 - 2024",
-        "photo_url": "/images/Affiliation 1.JPG",
-        "description": "Supported the ICSA executive team by managing financial documentation, tracking event budgets, and maintaining fiscal transparency. Gained hands-on experience in resource planning and organizational leadership.",
     },
     {
         "id": 2,
@@ -96,8 +78,6 @@ AFFILIATIONS = [
         "organization": "Institute of Computing Student Association (ICSA)",
         "year_level": "2nd Year",
         "term": "2024 - 2025",
-        "photo_url": "/images/Affiliation 2.JPG",
-        "description": "Acted as the primary liaison between the Institute of Computing and external stakeholders, sponsors, and partner organizations. Spearheaded efforts to secure sponsorships and foster collaborative initiatives, successfully expanding the organization's network and enhancing the impact of student-led projects.",
     },
     {
         "id": 3,
@@ -105,8 +85,6 @@ AFFILIATIONS = [
         "organization": "Institute of Computing - Local Student Government (IC-LSG)",
         "year_level": "3rd Year",
         "term": "2025 - 2026",
-        "photo_url": "/images/Affiliation 3.jpeg",
-        "description": "Governor of the Institute of Computing Local Student Government, tasked with operational leadership and policy implementation. Spearheaded the digital transformation of the organization through the 'Green Initiative' and managed strategic institutional collaborations, including joint events with SOSED to promote environmental sustainability and student engagement.",
     },
     {
         "id": 4,
@@ -114,8 +92,6 @@ AFFILIATIONS = [
         "organization": "Institute of Computing - Local Student Government (IC-LSG)",
         "year_level": "4th Year",
         "term": "2026 - 2027",
-        "photo_url": "/images/Affiliation 4.jpeg",
-        "description": "Served as the official voice of the IT student body within the Local Student Government, bridging communication between students and the faculty. Responsible for gathering student feedback on technical concerns, facilitating open dialogue, and advocating for initiatives that improve the student experience in the Institute of Computing.",
     },
     # Add or remove entries freely - each becomes a stop on the timeline,
     # in the order they appear here. Give each a unique "id".
@@ -201,6 +177,18 @@ PROJECTS = [
         "live_url": "https://moba-draft-predictor.vercel.app/",
         "figma_url": ""
     },
+    {
+        "id": 7,
+            "title":  "MediDose",
+            "description": (
+                "MediDose is a single-page application designed to help households manage their medicines in one convenient place. It provides a dosage intake scheduler, medicine cabinet inventory tracker, and expiration monitoring system while keeping data stored locally on the user's device."
+            ),
+            "image_url": "/images/MediDose.png",
+            "tags": ["Web Application", "React", "TypeScript", "Healthcare", "Medication Management"],
+            "github_url": "https://github.com/vincelsayzz/MediDose",
+            "live_url": "https://shopper-agent-mustard.ngrok-free.dev/",
+            "figma_url": ""
+        },
     # New project? Copy one of the dicts above, change the fields, and it
     # will show up in the grid automatically - no changes needed elsewhere.
 ]
@@ -208,7 +196,7 @@ PROJECTS = [
 CERTIFICATIONS = [
     {
         "id": 1,
-        "title": "Computer System Servicing NC II",
+        "title": "Computer System Servicing",
         "issuer": "TESDA: Technical Education and Skills Development Authority",
         "description": (
             "Certified competency in installing and configuring computer systems, setting up local area networks (LAN), "
@@ -224,7 +212,7 @@ CERTIFICATIONS = [
         "issuer": "Coursera / IBM",
         "description": (
             "A comprehensive 10-course professional credential covering foundational and advanced concepts "
-            "in data science and machine learning. Developed hands-on skills in Python programming, SQL databases, "
+            "in data science and machine learning., "
             "data analysis, and visualization, culminating in building machine learning models and a cloud-based capstone project."
         ),
         "image_url": "/images/IBM Data Science.png",
@@ -233,86 +221,49 @@ CERTIFICATIONS = [
     },
     {
         "id": 3,
-        "title": "IBM Applied Data Science",
-        "issuer": "Coursera / IBM",
-        "description": (
-            "Developed hands-on skills in Python programming, SQL databases, "
-            "data analysis, and visualization, culminating in building machine learning models and a cloud-based capstone project."
-        ),
-        "image_url": "/images/IBM Applied Science.png",
-        "date": "Jun 14, 2024",
-        "credential_url": "https://coursera.org/verify/specialization/MDPZSNLRW55G",
+        "title": "Google Data Analytics",
+                "issuer": "Coursera / Google",
+                "description": (
+                    "A comprehensive 9-course professional training program developed by Google. "
+                    "It focuses on the complete data analysis process, covering data cleaning, organization, analysis, and storytelling. "
+                ),
+                "image_url": "/images/cert 4.png",
+                "date": "Jun 18, 2024",
+                "credential_url": "https://coursera.org/verify/professional-cert/G3EB2NVDN97P",
     },
     {
         "id": 4,
-        "title": "Google Data Analytics",
-        "issuer": "Coursera / Google",
-        "description": (
-            "A comprehensive 9-course professional training program developed by Google. "
-            "It focuses on the complete data analysis process, covering data cleaning, organization, analysis, and storytelling. "
-        ),
-        "image_url": "/images/cert 4.png",
-        "date": "Jun 18, 2024",
-        "credential_url": "https://coursera.org/verify/professional-cert/G3EB2NVDN97P",
+         "title": "ISC2 Certified in Cybersecurity (CC)",
+                "issuer": "ISC2: International Information System Security Certification Consortium",
+                "description": (
+                    "A globally recognized foundational certification that validates essential knowledge and skills for cybersecurity roles. "
+                ),
+                "image_url": "/images/cert 7.png",
+                "date": "06 July, 2025",
+                "credential_url": "https://drive.google.com/file/d/1To_aNL_Cmi07tzLCQP99HQjLMy_uAOBD/view?usp=sharing",
     },
     {
         "id": 5,
-        "title": "Google IT Support",
-        "issuer": "Coursera / Google",
+        "title": "Cisco Networking",
+        "issuer": "Cisco Networking Academy",
         "description": (
-            "A comprehensive 6-course professional training program developed by Google. "
-            "It focuses on the fundamentals of IT support, including troubleshooting, customer service, and system administration."
+            "A comprehensive 1-Semester Networking Course with Hands-on Training developed by Cisco. It focuses on the fundamentals of networking, including troubleshooting, customer service, and system administration. "
         ),
-        "image_url": "/images/cert 5.png",
-        "date": "Jun 18, 2024",
+        "image_url": "/images/CCNAIT.png",
+        "date": "May 29, 2025",
         "credential_url": "https://coursera.org/verify/professional-cert/YHK725LEAR9M",
     },
     {
         "id": 6,
-        "title": "Google Cloud Digital Leader Training",
-        "issuer": "Coursera / Google",
-        "description": (
-            "A comprehensive 6-course professional training program developed by Google. "
-            "It focuses on the fundamentals of cloud digital leadership, including strategic planning, team management, and business transformation."
-        ),
-        "image_url": "/images/cert 6.png",
-        "date": "Jun 28, 2024",
-        "credential_url": "https://coursera.org/verify/professional-cert/QEGENV6AZWW7",
-    },
-    {
-        "id": 7,
-        "title": "ISC2 Certified in Cybersecurity (CC)",
-        "issuer": "ISC2: International Information System Security Certification Consortium",
-        "description": (
-            "A globally recognized foundational certification that validates essential knowledge and skills for cybersecurity roles. "
-            "It demonstrates a solid understanding of core security concepts across five domains: Security Principles, Business Continuity and Incident Response, Access Controls, Network Security, and Security Operations."
-        ),
-        "image_url": "/images/cert 7.png",
-        "date": "06 July, 2025",
-        "credential_url": "https://drive.google.com/file/d/1To_aNL_Cmi07tzLCQP99HQjLMy_uAOBD/view?usp=sharing",
-    },
-    {
-        "id": 8,
-        "title": "Technoprenueurship Ignite Phillipines",
-        "issuer": "Wadhwani Foundation",
-        "description": (
-           "Successfully completed 42 hours of coursework training focused on developing foundational startup and business skills. "
-            "The program covered practical methodologies in business ideation, strategic business modeling, and financial planning."
-        ),
-        "image_url": "/images/cert 8.png",
-        "date": "April 30, 2026",
-        "credential_url": "https://drive.google.com/file/d/1UTgnA9aw0qu3xP0FMOzEKSdkId5w0cls/view?usp=sharing",
-    },
-     {
-        "id": 9,
-        "title": "Python Essentials",
-        "issuer": "Cisco Networking Academy",
-        "description": (
-           "Python Essentials learning and understanding the fundamentals of Python programming, including data types, control structures, functions, and basic object-oriented programming concepts. "
-        ),
-        "image_url": "/images/cert 9.png",
-        "date": "27 Feb 2026",
-        "credential_url": "https://www.linkedin.com/in/vinceslayz/details/certifications/",
+       "title": "Technoprenueurship Ignite Phillipines",
+               "issuer": "Wadhwani Foundation",
+               "description": (
+                  "Successfully completed 42 hours of coursework training focused on developing foundational startup and business skills. "
+                   "The program covered practical methodologies in business ideation, strategic business modeling, and financial planning."
+               ),
+               "image_url": "/images/cert 8.png",
+               "date": "April 30, 2026",
+               "credential_url": "https://drive.google.com/file/d/1UTgnA9aw0qu3xP0FMOzEKSdkId5w0cls/view?usp=sharing",
     },
     # Same pattern - add a new dict here for every new certificate you earn.
 ]

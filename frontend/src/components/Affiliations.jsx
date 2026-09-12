@@ -9,8 +9,7 @@ export default function Affiliations({ affiliations = [] }) {
         <p className="section__eyebrow">~$ cat affiliations.log</p>
         <h2 className="section__title">Leadership &amp; Affiliations</h2>
         <p className="section__subtitle">
-          Add a new role by adding one object to <code>AFFILIATIONS</code> in{" "}
-          <code>backend/data.py</code> - this timeline renders automatically.
+          Add a new role, explore new opportunities.
         </p>
       </FadeInSection>
 
