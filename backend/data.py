@@ -265,6 +265,16 @@ CERTIFICATIONS = [
                "date": "April 30, 2026",
                "credential_url": "https://drive.google.com/file/d/1UTgnA9aw0qu3xP0FMOzEKSdkId5w0cls/view?usp=sharing",
     },
+     {
+            "id": 7,
+           "title": "SMAARDEC Research Convention 2026",
+                   "issuer": "SMAARDEC: Southern Mindanao Agriculture, Aquatic and Resources Research and Development Consortium",
+                   "description": (
+                      "Finishing a 3rd Place in the Research Convention 2026, SMAARDEC is a consortium of state universities and colleges in Southern Mindanao, Philippines, dedicated to advancing agricultural and aquatic research."
+                   ),
+                   "image_url": "/images/SMAARDEC - Copy.jpg",
+                   "date": "August 20, 2026",
+        },
     # Same pattern - add a new dict here for every new certificate you earn.
 ]
 
